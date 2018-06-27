@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Enter the otp  "
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textColor="#F5F5F5"
+            android:layout_marginTop="90dp"/>
+        <EditText
+            android:id="@+id/otp"
+            android:textColor="#F5F5F5"
+            android:shadowRadius="2"
+            android:shadowDy="1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColorHint="#F5F5F5"
+            android:shadowDx="1"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="#F5F5F5"/>
+        <Button
+            android:id="@+id/otp_submit"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="italic"
+            android:textColor="#F5F5F5"
+            android:background="#FF1744"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
